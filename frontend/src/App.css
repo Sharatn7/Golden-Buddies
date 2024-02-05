@@ -1,0 +1,50 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #112D4E; /* Maroon for Black History Month */
+  height: 100vh;
+  padding: 20px;
+}
+
+.profile-button button {
+  background-color: #3F72AF; /* Use the same maroon for the profile button */
+}
+
+.main-container {
+  flex: 1;
+  background-color: #F9F7F7; /* Dark green for Black History Month */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 90%; /* Increase card width */
+  max-width: 800px; /* Maintain the maximum width for larger screens */
+  height: 80%; /* Increase card height */
+  max-height: 600px; /* Maintain the maximum height for larger screens */
+  padding: 20px;
+  background-color: #3F72AF; /* Subtle black */
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
